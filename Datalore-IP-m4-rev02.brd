@@ -1086,7 +1086,6 @@ design rules under a new name.</description>
 <via x="7" y="21.25" extent="1-16" drill="0.2" diameter="0.125"/>
 <via x="5" y="9" extent="1-16" drill="0.2" diameter="0.125"/>
 <via x="8.5" y="25.25" extent="1-16" drill="0.2" diameter="0.125"/>
-<via x="6.75" y="25.25" extent="1-16" drill="0.2" diameter="0.125"/>
 <via x="12.25" y="19.25" extent="1-16" drill="0.2" diameter="0.125"/>
 <via x="10.5" y="21.75" extent="1-16" drill="0.2" diameter="0.125"/>
 <via x="10.75" y="10.25" extent="1-16" drill="0.2" diameter="0.125"/>
@@ -1106,19 +1105,19 @@ design rules under a new name.</description>
 <wire x1="5.25" y1="15.5" x2="5.5" y2="15.75" width="0.3" layer="1"/>
 <wire x1="5.5" y1="15.75" x2="5.75" y2="15.75" width="0.3" layer="1"/>
 <contactref element="C1" pad="1"/>
-<wire x1="6.75" y1="25.25" x2="6.746" y2="25.254" width="0.3" layer="16"/>
-<wire x1="6.65246875" y1="25.254" x2="6.746" y2="25.254" width="0.3" layer="16"/>
-<wire x1="6.35" y1="25.55646875" x2="6.65246875" y2="25.254" width="0.3" layer="16"/>
-<wire x1="6.35" y1="25.65" x2="6.75" y2="25.25" width="0.3" layer="1"/>
 <wire x1="12.25" y1="19.25" x2="18.375" y2="13.125" width="0.3" layer="1"/>
 <wire x1="19" y1="18.75" x2="18.625" y2="18.375" width="0.3" layer="1"/>
 <wire x1="18.625" y1="18.375" x2="18.375" y2="18.375" width="0.3" layer="1"/>
-<wire x1="18.375" y1="18.375" x2="13.25" y2="13.25" width="0.3" layer="1"/>
 <via x="13" y="5.375" extent="1-16" drill="0.2" diameter="0.125"/>
-<wire x1="6.35" y1="26.67" x2="6.35" y2="25.65" width="0.2" layer="1"/>
-<wire x1="6.35" y1="26.67" x2="6.35" y2="25.65" width="0.2" layer="16"/>
-<wire x1="6.35" y1="25.65" x2="6.75" y2="25.25" width="0.2" layer="16"/>
 <via x="2.75" y="25.25" extent="1-16" drill="0.2" diameter="0.125"/>
+<wire x1="19" y1="18.75" x2="14" y2="13.75" width="0.2" layer="1"/>
+<wire x1="14" y1="13.75" x2="13.75" y2="13.75" width="0.2" layer="1"/>
+<wire x1="15.75" y1="15.75" x2="12.25" y2="12.25" width="0.2" layer="1"/>
+<wire x1="6.35" y1="26.67" x2="6.35" y2="25.4" width="0.3" layer="16"/>
+<wire x1="6.35" y1="25.4" x2="6.625" y2="25.125" width="0.3" layer="16"/>
+<via x="6.625" y="25.125" extent="1-16" drill="0.2" diameter="0.125"/>
+<wire x1="6.35" y1="26.67" x2="6.35" y2="25.4" width="0.3" layer="1"/>
+<wire x1="6.35" y1="25.4" x2="6.625" y2="25.125" width="0.3" layer="1"/>
 </signal>
 <signal name="FLASH_IO2">
 <contactref element=".." pad="19"/>
@@ -1909,7 +1908,6 @@ design rules under a new name.</description>
 <approved hash="19,1,5ca95d63a29ba351"/>
 <approved hash="19,1,9ba296a4a95ca45a"/>
 <approved hash="4,1,a0095e784c06b277"/>
-<approved hash="4,1,bafa107ed2e9f868"/>
 <approved hash="4,1,f92df998271827ad"/>
 <approved hash="4,1,e6a5e70439843825"/>
 <approved hash="4,1,df85dfa401240105"/>
@@ -1983,7 +1981,6 @@ design rules under a new name.</description>
 <approved hash="4,1,e4121a63d41d2a6c"/>
 <approved hash="4,1,0021fe517c2f825f"/>
 <approved hash="4,1,16c3e94a1345283a"/>
-<approved hash="4,1,76c67c851212226f"/>
 <approved hash="4,1,7fb540414b44a84e"/>
 <approved hash="4,1,94096a7874068a77"/>
 <approved hash="4,16,0021fe517c2f825f"/>
@@ -1991,7 +1988,6 @@ design rules under a new name.</description>
 <approved hash="4,16,2c29d25974278a57"/>
 <approved hash="4,16,6afb55494348d00c"/>
 <approved hash="4,16,bec00571563628e8"/>
-<approved hash="4,16,f0efa2b668f7ce51"/>
 <approved hash="4,16,82971f075f335d62"/>
 <approved hash="4,16,b5cd76505f447035"/>
 <approved hash="4,16,94096a7874068a77"/>
@@ -2003,6 +1999,11 @@ design rules under a new name.</description>
 <approved hash="4,16,eecf292339b216e2"/>
 <approved hash="4,16,e4121a63d41d2a6c"/>
 <approved hash="4,1,a28f7d4863580077"/>
+<approved hash="23,1,056d3991391105ed"/>
+<approved hash="4,1,b09323d79762d4ff"/>
+<approved hash="4,16,b09323d79762d4ff"/>
+<approved hash="23,1,ff4804bc0487ff73"/>
+<approved hash="23,16,ff4804bc0487ff73"/>
 </errors>
 </board>
 </drawing>
